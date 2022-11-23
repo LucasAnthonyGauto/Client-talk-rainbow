@@ -1,0 +1,38 @@
+li {
+  list-style: none;
+}
+
+.divChatRoom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.chatRoom {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.received {
+  background-color: aquamarine;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.send {
+  background-color: aqua;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

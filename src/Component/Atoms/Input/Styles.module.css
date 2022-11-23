@@ -1,0 +1,8 @@
+.message {
+  width: 10vw;
+  height: 1vw;
+}
+
+.message:focus {
+  background-color: aqua;
+}
